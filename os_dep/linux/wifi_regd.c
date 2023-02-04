@@ -35,7 +35,7 @@ static void rtw_regd_overide_flags(struct wiphy *wiphy, struct rf_ctl_t *rfctl)
 			ch = &sband->channels[j];
 			if (!ch)
 				continue;
-			ch->flags = IEEE80211_CHAN_DISABLED;
+			continue;
 		}
 	}
 
